@@ -2,6 +2,12 @@
 .debug{
     border:3px solid red;
 }
+
+@font-face{
+    font-family: 'Montserrat';
+    src:url('../police/Montserrat-Regular.ttf');
+}
+
 div.menu_gauche{
 height:100vh;
 margin:0px!important;
@@ -97,7 +103,7 @@ background: #FFFFFF;
 border-radius: 36px;
 border:1px solid #FFFFFF;
 line-height: 62px;
-p.p5{
+p.p4{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -113,12 +119,26 @@ border-radius: 36px;
 border:1px solid #E77A15;
 margin:auto;
 line-height: 62px;
-p.p6{
+p.p5{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
 color: #FFFFFF;
+}
+}
+p.p6{
+margin-top:130px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+a{
+color: white;
+font-size:35px;
+margin-left:20px;
 }
 }
 }
