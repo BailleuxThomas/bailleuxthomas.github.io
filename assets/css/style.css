@@ -2,6 +2,12 @@
   border: 3px solid red;
 }
 
+@media screen and (max-width: 720px) {
+  div.colone-2 {
+    display: none;
+  }
+}
+
 @font-face {
   font-family: 'Montserrat';
   src: url("../police/Montserrat-Regular.ttf");
