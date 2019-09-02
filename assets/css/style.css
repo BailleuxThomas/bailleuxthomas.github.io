@@ -2,15 +2,76 @@
   border: 3px solid red;
 }
 
-@media screen and (max-width: 720px) {
-  div.colone-2 {
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../police/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("../police/justanotherhand-regular.ttf");
+}
+
+@media screen and (min-width: 991px) {
+  div.menu_gauchexs {
     display: none;
   }
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url("../police/Montserrat-Regular.ttf");
+@media screen and (max-width: 991px) {
+  div.menu_gauche {
+    display: none;
+  }
+  div.colone-2 {
+    display: none;
+  }
+  div.menu_gauchexs {
+    width: 100vh;
+    margin: 0px !important;
+    padding: 0px !important;
+    background: #1E1E1E;
+    -webkit-box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
+  }
+  div.menu_gauchexs div.TB2 {
+    width: 100%;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+    background: #E77A15;
+  }
+  div.menu_gauchexs div.TB2 p.ptb2 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Just Another Hand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  div.menu_gauchexs ul.ul-top2 {
+    margin: auto;
+    padding: 30px;
+  }
+  div.menu_gauchexs ul.ul-top2 li.menu2 {
+    display: block;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+  }
+  div.menu_gauchexs ul.ul-top2 li.menu2 a {
+    padding: 50px;
+    text-align: center;
+    color: #E77A15;
+    line-height: 60px;
+  }
+  div.menu_gauchexs ul.ul-top2 li.menu2 a.active {
+    color: #FFFFFF;
+  }
+  div.menu_gauchexs ul.ul-top2 li.menu2 i {
+    font-size: 35px;
+  }
 }
 
 div.menu_gauche {
@@ -39,13 +100,6 @@ div.menu_gauche div.TB p.ptb {
   font-size: 48px;
   line-height: 48px;
   color: #FFFFFF;
-}
-
-@font-face {
-  div.menu_gauche div.TB p.ptb {
-    font-family: "Just Another Hand";
-    src: url("../police/justanotherhand-regular.ttf");
-  }
 }
 
 div.menu_gauche ul.ul-top {
