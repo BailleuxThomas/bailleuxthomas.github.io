@@ -1,11 +1,10 @@
-
 .debug{
-    border:3px solid red;
+border:3px solid red;
 }
 
 @font-face{
-    font-family: 'Montserrat';
-    src:url('../police/Montserrat-Regular.ttf');
+font-family: 'Montserrat';
+src:url('../police/Montserrat-Regular.ttf');
 }
 
 div.menu_gauche{
@@ -20,11 +19,11 @@ height: 135px;
 left: 0px;
 top: 0px;
 background: #E77A15;
-    p.ptb{
-    @font-face{
-        font-family: "Just Another Hand";
-        src: url('../police/justanotherhand-regular.ttf');
-    }
+p.ptb{
+@font-face{
+font-family: "Just Another Hand";
+src: url('../police/justanotherhand-regular.ttf');
+}
 padding-top:50px;
 text-align: center;
 font-family: Just Another Hand;
@@ -34,24 +33,24 @@ font-size: 48px;
 line-height: 48px;
 
 color: #FFFFFF;
-    }
+}
 }
 ul.ul-top{
-    margin-top:120px;
-    li.menu{
-        list-style: none;
-        text-decoration: none;
-        a{
-            color:#E77A15;
-            line-height: 60px;
-        }
-        a.active{
-            color:#FFFFFF;
-        }
-        i{
-            font-size:35px;
-        }
-    }
+margin-top:120px;
+li.menu{
+list-style: none;
+text-decoration: none;
+a{
+color:#E77A15;
+line-height: 60px;
+}
+a.active{
+color:#FFFFFF;
+}
+i{
+font-size:35px;
+}
+}
 }
 }
 
@@ -148,5 +147,5 @@ height:100vh;
 img{
 height:100vh;
 left:30px!important;
-} 
+}
 }
