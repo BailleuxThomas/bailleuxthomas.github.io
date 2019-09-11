@@ -132,7 +132,7 @@ div.colone-1 {
 }
 
 div.colone-1 div.infocenter {
-  padding: 100px 100px 0px;
+  margin: 100px 100px;
 }
 
 div.colone-1 p.p1 {
@@ -167,6 +167,15 @@ div.colone-1 p.p3 {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+div.colone-1 p.p9 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 29px;
   color: #FFFFFF;
 }
@@ -233,28 +242,4 @@ div.colone-2 img {
   width: 100%;
   left: 30px !important;
 }
-
-div.colone-profil {
-  height: 100vh;
-  background: #E77A15;
-  -webkit-box-shadow: 70px 4px 54px rgba(0, 0, 0, 0.25);
-          box-shadow: 70px 4px 54px rgba(0, 0, 0, 0.25);
-}
-
-div.colone-profil i.iprofil {
-  text-align: center;
-  margin-top: 80px;
-  display: block;
-  color: #FFFFFF;
-  font-size: 50px;
-}
-
-div.colone-1 div.infocenter p.p7 {
-  margin-top: 50px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: #FFFFFF;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=accueil.css.map */
