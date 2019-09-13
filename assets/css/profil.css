@@ -1,3 +1,9 @@
+@media screen and (max-width: 991px) {
+  div.colone-profil {
+    display: none;
+  }
+}
+
 div.colone-profil {
   height: 100vh;
   background: #E77A15;

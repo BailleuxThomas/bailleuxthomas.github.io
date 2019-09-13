@@ -29,7 +29,7 @@ let Information = {"Info_to_portefolio": [
 console.log(Information.Info_to_portefolio.length);
 
 
-function myFunction() {
+function btnleft() {
 
     demo.innerHTML = Information.Info_to_portefolio[test+1].Nom;
     demo.innerHTML += br;
@@ -39,18 +39,42 @@ function myFunction() {
     demo.innerHTML += br;
     demo.innerHTML += Information.Info_to_portefolio[test+1].Img;
 
-    img1.src = Information.Info_to_portefolio[test+1].Img;
-    img2.src = Information.Info_to_portefolio[test+2].Img;
-    img3.src = Information.Info_to_portefolio[test+3].Img;
+    // img1.src = Information.Info_to_portefolio[test+1].Img;
+    // img2.src = Information.Info_to_portefolio[test+2].Img;
+    // img3.src = Information.Info_to_portefolio[test+3].Img;
 
   test += 1;
 
  if(test === Information.Info_to_portefolio.length-1 ) {
     test = -1;
 }
-
-
-
   console.log(test);
 
   }
+
+
+function btnright() {
+
+  demo.innerHTML = Information.Info_to_portefolio[test-1].Nom;
+  demo.innerHTML += br;
+  demo.innerHTML += Information.Info_to_portefolio[test-1].Description;
+  demo.innerHTML += br;
+  demo.innerHTML += Information.Info_to_portefolio[test-1].Skill;
+  demo.innerHTML += br;
+  demo.innerHTML += Information.Info_to_portefolio[test-1].Img;
+
+  // img1.src = Information.Info_to_portefolio[test+1].Img;
+  // img2.src = Information.Info_to_portefolio[test+2].Img;
+  // img3.src = Information.Info_to_portefolio[test+3].Img;
+
+test -= 1;
+
+if(test === Information.Info_to_portefolio.length) {
+  test += 1;
+}
+
+else if(Information.Info_to_portefolio[test-1] === -1){
+  alert("test");
+}
+console.log(test);
+}
