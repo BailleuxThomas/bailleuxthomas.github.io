@@ -53,7 +53,10 @@ function btnleft() {
   }
 
 
+
+
 function btnright() {
+
 
   demo.innerHTML = Information.Info_to_portefolio[test-1].Nom;
   demo.innerHTML += br;
@@ -67,14 +70,13 @@ function btnright() {
   // img2.src = Information.Info_to_portefolio[test+2].Img;
   // img3.src = Information.Info_to_portefolio[test+3].Img;
 
-test -= 1;
+  test -= 1;
 
-if(test === Information.Info_to_portefolio.length) {
-  test += 1;
+if(test===0){
+  test += 16;
 }
 
-else if(Information.Info_to_portefolio[test-1] === -1){
-  alert("test");
-}
+
 console.log(test);
 }
+console.log(test);
