@@ -128,9 +128,12 @@ div.menu_gauche ul.ul-top li.menu i {
 }
 
 @media screen and (max-width: 540px) {
+  div.colone-1 {
+    height: 100%;
+  }
   div.colone-1 div.infocenter {
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
   }
 }
 
