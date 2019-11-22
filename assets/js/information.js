@@ -7,9 +7,9 @@ let test = -1;
 const br = "<br>";
 
 let Information = {"Info_to_portefolio": [
-    {"Nom":"WordPress Plugin FTP","Description":"Ce plugin a été réalisé avec l'aide de mon collègue de formation.","Skill":"Php, Javascript, WordPress","Img":"https://cdn.pixabay.com/photo/2015/04/04/19/13/one-706897_640.jpg"},
-    {"Nom":"Website Ladou","Description":"Site Ladou 'L'attiéké déshydraté'","Skill":"WordPress, E-Commerce, Elementor","Img":"https://cdn.pixabay.com/photo/2015/04/04/19/13/two-706896_960_720.jpg"},
-    {"Nom":"Blabla3","Description":"tt","Skill":"tt","Img":"https://www.radiolaser.fr/photo/art/grande/14157636-20197586.jpg?v=1498807824"},
+    {"Nom":"WordPress Plugin FTP","Description":"Ce plugin a été réalisé avec l'aide de mon collègue de formation.","Skill":"Php, Javascript, WordPress","Img":"../img/beltek.jpg"},
+    {"Nom":"Website Ladou","Description":"Site Ladou 'L'attiéké déshydraté'","Skill":"WordPress, E-Commerce, Elementor","Img":"../img/ladou.png"},
+    {"Nom":"Blabla3","Description":"tt","Skill":"tt","Img":"../img/plateformehorus.png"},
     {"Nom":"Blabla4","Description":"","Skill":"","Img":"https://www.agglobus.com/sites/default/files/LIGNE%204%20OFFRE%20FINALE_0.jpg"},
     {"Nom":"Blabla5","Description":"tt","Skill":"tt","Img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/5logo.jpg/280px-5logo.jpg"},
     {"Nom":"Blabla6","Description":"","Skill":"","Img":"https://s3.amazonaws.com/tinycards/image/920ce0fd6aa58908b1c07e65f93cf469"},
@@ -37,9 +37,12 @@ function btnleft() {
     demo.innerHTML += br;
     demo.innerHTML += Information.Info_to_portefolio[test+1].Skill;
     demo.innerHTML += br;
-    demo.innerHTML += Information.Info_to_portefolio[test+1].Img;
+    Img1url.href = Information.Info_to_portefolio[test+1].Img;
+    Img1.src = Information.Info_to_portefolio[test+1].Img;
+    Img1.alt = Information.Info_to_portefolio[test+1].Img;
 
-    // img1.src = Information.Info_to_portefolio[test+1].Img;
+
+    //  img1.src = Information.Info_to_portefolio[test+1].Img;
     // img2.src = Information.Info_to_portefolio[test+2].Img;
     // img3.src = Information.Info_to_portefolio[test+3].Img;
 
@@ -64,11 +67,10 @@ function btnright() {
   demo.innerHTML += br;
   demo.innerHTML += Information.Info_to_portefolio[test-1].Skill;
   demo.innerHTML += br;
-  demo.innerHTML += Information.Info_to_portefolio[test-1].Img;
+  Img1url.href = Information.Info_to_portefolio[test-1].Img;
+  Img1.src = Information.Info_to_portefolio[test-1].Img;
+  Img1.alt = Information.Info_to_portefolio[test-1].Img;
 
-  // img1.src = Information.Info_to_portefolio[test+1].Img;
-  // img2.src = Information.Info_to_portefolio[test+2].Img;
-  // img3.src = Information.Info_to_portefolio[test+3].Img;
 
   test -= 1;
 
