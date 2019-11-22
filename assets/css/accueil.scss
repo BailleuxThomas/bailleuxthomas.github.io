@@ -120,12 +120,17 @@ div.menu_gauche{
     }
 }
 
+@media screen and (max-width: 990px){
+    div.colone-1{
+        height: 100%!important;
+    }
+}
+
 @media screen and (max-width: 540px) {
     div.colone-1{
-        height:100%;
         div.infocenter{
             margin-top:0px!important;
-            margin-left:0px!important;
+            margin-left:20px!important;
         }
     }
 }

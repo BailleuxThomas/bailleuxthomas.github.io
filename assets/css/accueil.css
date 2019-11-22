@@ -127,13 +127,16 @@ div.menu_gauche ul.ul-top li.menu i {
   font-size: 35px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 990px) {
   div.colone-1 {
-    height: 100%;
+    height: 100% !important;
   }
+}
+
+@media screen and (max-width: 540px) {
   div.colone-1 div.infocenter {
     margin-top: 0px !important;
-    margin-left: 0px !important;
+    margin-left: 20px !important;
   }
 }
 
