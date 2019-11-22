@@ -120,6 +120,15 @@ div.menu_gauche{
     }
 }
 
+@media screen and (max-width: 540px) {
+    div.colone-1{
+        div.infocenter{
+            margin-top:0px;
+            margin-left:0px;
+        }
+    }
+}
+
 div.colone-1{
     height:100vh;
     background: #353535;
