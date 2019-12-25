@@ -16,6 +16,9 @@
   div.menu_gauchexs {
     display: none;
   }
+  div.colone-1 p.p6 {
+    margin-top: 0px !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -130,6 +133,9 @@ div.menu_gauche ul.ul-top li.menu i {
 @media screen and (max-width: 990px) {
   div.colone-1 {
     height: 100vh !important;
+  }
+  div.colone-1 p.p6 {
+    margin-top: 0px !important;
   }
 }
 
