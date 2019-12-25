@@ -12,6 +12,10 @@
   src: url("../police/justanotherhand-regular.ttf");
 }
 
+body {
+  overflow-y: hidden;
+}
+
 @media screen and (min-width: 991px) {
   div.menu_gauchexs {
     display: none;

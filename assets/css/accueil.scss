@@ -10,6 +10,10 @@ border:3px solid red;
     @font-face{
         font-family: "Just Another Hand";
         src: url('../police/justanotherhand-regular.ttf');
+    }
+
+body{
+    overflow-y: hidden;
 }
 
 @media screen and (min-width:991px){
