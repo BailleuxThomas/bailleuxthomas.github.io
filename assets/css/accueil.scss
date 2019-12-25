@@ -11,7 +11,6 @@ border:3px solid red;
         font-family: "Just Another Hand";
         src: url('../police/justanotherhand-regular.ttf');
     }
-
 body{
     overflow-y: hidden;
 }
@@ -22,7 +21,7 @@ body{
     }
     div.colone-1{
                 p.p6{
-                    margin-top:0px!important;
+                    margin-top:30px!important;
                 }
     }
 }
@@ -240,6 +239,20 @@ button.btn-2{
                 color: white;
                 font-size:35px;
                 margin-left:20px;
+                -webkit-transition: all 1s ease; /* Safari et Chrome */
+                -moz-transition: all 1s ease; /* Firefox */
+                -ms-transition: all 1s ease; /* Internet Explorer 9 */
+                -o-transition: all 1s ease; /* Opera */
+                transition: all 1s ease;
+            }
+            a:hover{
+                color:#E77A15;
+                font-size:50px;
+                -webkit-transform:scale(1.25); /* Safari et Chrome */
+                -moz-transform:scale(1.25); /* Firefox */
+                -ms-transform:scale(1.25); /* Internet Explorer 9 */
+                -o-transform:scale(1.25); /* Opera */
+                transform:scale(1.25);
             }
         }
 }

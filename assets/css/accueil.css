@@ -21,7 +21,7 @@ body {
     display: none;
   }
   div.colone-1 p.p6 {
-    margin-top: 0px !important;
+    margin-top: 30px !important;
   }
 }
 
@@ -258,6 +258,23 @@ div.colone-1 p.p6 a {
   color: white;
   font-size: 35px;
   margin-left: 20px;
+  -webkit-transition: all 1s ease;
+  /* Safari et Chrome */
+  /* Firefox */
+  /* Internet Explorer 9 */
+  /* Opera */
+  transition: all 1s ease;
+}
+
+div.colone-1 p.p6 a:hover {
+  color: #E77A15;
+  font-size: 50px;
+  -webkit-transform: scale(1.25);
+  /* Safari et Chrome */
+  /* Firefox */
+  /* Internet Explorer 9 */
+  /* Opera */
+  transform: scale(1.25);
 }
 
 div.colone-2 {
