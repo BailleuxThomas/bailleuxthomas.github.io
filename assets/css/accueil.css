@@ -3,7 +3,7 @@
 }
 
 @font-face {
-  font-family: 'Montserrat', serif;
+  font-family: "Montserrat", serif;
   src: url("../police/Montserrat-Regular.ttf");
 }
 
@@ -39,7 +39,7 @@ body {
     width: 100vh;
     margin: 0px !important;
     padding: 0px !important;
-    background: #1E1E1E;
+    background: #1e1e1e;
     -webkit-box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
             box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
   }
@@ -48,7 +48,7 @@ body {
     height: 135px;
     left: 0px;
     top: 0px;
-    background: #E77A15;
+    background: #e77a15;
   }
   div.menu_gauchexs div.TB2 p.ptb2 {
     padding-top: 50px;
@@ -58,7 +58,7 @@ body {
     font-weight: normal;
     font-size: 48px;
     line-height: 48px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   div.menu_gauchexs ul.ul-top2 {
     margin: auto;
@@ -73,11 +73,11 @@ body {
   div.menu_gauchexs ul.ul-top2 li.menu2 a {
     padding: 50px;
     text-align: center;
-    color: #E77A15;
+    color: #e77a15;
     line-height: 60px;
   }
   div.menu_gauchexs ul.ul-top2 li.menu2 a.active {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   div.menu_gauchexs ul.ul-top2 li.menu2 i {
     font-size: 35px;
@@ -88,17 +88,18 @@ div.menu_gauche {
   height: 100vh;
   margin: 0px !important;
   padding: 0px !important;
-  background: #1E1E1E;
+  background: #1e1e1e;
   -webkit-box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 div.menu_gauche div.TB {
+  display: table-cell;
   width: 100vh;
   height: 135px;
   left: 0px;
   top: 0px;
-  background: #E77A15;
+  background: #e77a15;
 }
 
 div.menu_gauche div.TB p.ptb {
@@ -109,7 +110,7 @@ div.menu_gauche div.TB p.ptb {
   font-weight: normal;
   font-size: 48px;
   line-height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.menu_gauche ul.ul-top {
@@ -122,12 +123,12 @@ div.menu_gauche ul.ul-top li.menu {
 }
 
 div.menu_gauche ul.ul-top li.menu a {
-  color: #E77A15;
+  color: #e77a15;
   line-height: 60px;
 }
 
 div.menu_gauche ul.ul-top li.menu a.active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.menu_gauche ul.ul-top li.menu i {
@@ -177,7 +178,7 @@ div.colone-1 p.p2 {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.colone-1 h2.h2-1 {
@@ -186,7 +187,7 @@ div.colone-1 h2.h2-1 {
   font-weight: 600;
   font-size: 48px;
   line-height: 59px;
-  color: #E77A15;
+  color: #e77a15;
 }
 
 div.colone-1 p.p3 {
@@ -195,7 +196,7 @@ div.colone-1 p.p3 {
   font-weight: normal;
   font-size: 24px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.colone-1 p.p9 {
@@ -204,7 +205,7 @@ div.colone-1 p.p9 {
   font-weight: normal;
   font-size: 15px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.colone-1 button.btn-1 {
@@ -212,9 +213,9 @@ div.colone-1 button.btn-1 {
   margin-right: 30px;
   width: 261px;
   height: 65px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 36px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   line-height: 62px;
 }
 
@@ -223,15 +224,15 @@ div.colone-1 button.btn-1 p.p4 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  color: #E77A15;
+  color: #e77a15;
 }
 
 div.colone-1 button.btn-2 {
   width: 261px;
   height: 65px;
-  background: #E77A15;
+  background: #e77a15;
   border-radius: 36px;
-  border: 1px solid #E77A15;
+  border: 1px solid #e77a15;
   margin: auto;
   line-height: 62px;
 }
@@ -241,7 +242,7 @@ div.colone-1 button.btn-2 p.p5 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.colone-1 p.p6 {
@@ -251,7 +252,7 @@ div.colone-1 p.p6 {
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 div.colone-1 p.p6 a {
@@ -267,7 +268,7 @@ div.colone-1 p.p6 a {
 }
 
 div.colone-1 p.p6 a:hover {
-  color: #E77A15;
+  color: #e77a15;
   font-size: 50px;
   -webkit-transform: scale(1.25);
   /* Safari et Chrome */
