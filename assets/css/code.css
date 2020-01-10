@@ -1,1 +1,18 @@
-/* No CSS *//*# sourceMappingURL=code.css.map */
+div.colone-1 div.infocenter3 {
+  margin-left: 30px;
+}
+
+div.colone-1 div.infocenter3 #demo {
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+div.colone-1 div.infocenter3 div.buttons i {
+  color: #E77A15;
+  cursor: pointer;
+}
+/*# sourceMappingURL=code.css.map */

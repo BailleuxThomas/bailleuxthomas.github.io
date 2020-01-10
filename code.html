@@ -9,8 +9,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/accueil.css">
     <link rel="stylesheet" href="assets/css/profil.css">
+    <link rel="stylesheet" href="assets/css/code.css">
     <script src="https://kit.fontawesome.com/5cef7d9a96.js"></script>
-    <title>Bailleux Thomas | Profil </title>
+    <title>Bailleux Thomas | Code </title>
 </head>
 
 <body>
@@ -23,8 +24,9 @@
                 </div>
                 <ul class="ul-top">
                     <li class="menu"><a href="./index.html"><i class="fas fa-home" title=""></i></a></li>
-                    <li class="menu"><a href="./code.html"><i class="fas fa-laptop-code" title=""></i></a></li>
-                    <li class="menu"><a class="active" href="./profil.html" title=""><i class="fas fa-user"></i></a>
+                    <li class="menu"><a class="active" href="./code.html"><i class="fas fa-laptop-code"
+                                title=""></i></a></li>
+                    <li class="menu"><a href="./profil.html" title=""><i class="fas fa-user"></i></a>
                     </li>
                     <li class="menu"><a href="" title=""><i class="fab fa-telegram-plane"></i></a></li>
                 </ul>
@@ -40,9 +42,9 @@
 
                     <ul class="ul-top2">
                         <li class="menu2"><a href="./index.html" title=""><i class="fas fa-home"></i></a></li>
-                        <li class="menu2"><a href="./code.html" title=""><i class="fas fa-laptop-code"></i></a></li>
-                        <li class="menu2"><a class="active" href="./profil.html" title=""><i
-                                    class="fas fa-user"></i></a></li>
+                        <li class="menu2"><a class="active" href="./code.html" title=""><i
+                                    class="fas fa-laptop-code"></i></a></li>
+                        <li class="menu2"><a href="./profil.html" title=""><i class="fas fa-user"></i></a></li>
                         <li class="menu2"><a href="" title=""><i class="fab fa-telegram-plane"></i></a></li>
                     </ul>
                 </div>
@@ -50,34 +52,24 @@
 
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 colone-1">
                 <div class="row">
-                    <div class="infocenter2">
+                    <div class="infocenter3">
                         <p class="p1"> >_ </p>
                         <p class="p2">Je suis Thomas Bailleux</p>
                         <h2 class="h2-1">Web Developer Junior</h2>
                         <p class="p3">frontend developer | WordPress developer </p>
 
-                        <p class="p7">C'est à la recherche d'un emploi, que je me suis réorienté vers le Web
-                            Développement à Becode.</p>
-                        <p class="p8">Je suis à la recherche d’un nouveau challenge .</p>
-                        <p class="p8">Maintenant je suis un passionné par le code, je m'amuse à mon temps perdu à
-                            bidouiller des codes juste pour mon plaisir.</p>
-                        <p class="p8"></p>
+                        <div class="buttons">
+                        <i style="font-size:30px;" onclick="btnleft()" class="fas fa-arrow-circle-right"></i>
+                        <i style="font-size:30px" onclick="btnright()" class="fas fa-arrow-circle-left"></i>
+                        </div>
 
-                        <button class="btn-1">
-                            <p class="p4">Mon Portfolio</p>
-                        </button>
 
-                        <button class="btn-2">
-                            <p class="p5">Contactez-moi</p>
-                        </button>
+                        <div id="demo">
+                            <p>Appuyer sur la fleche de direction la droite :D </p>
+                            <p>Attention :'( Ceci ne fonctionne pas encore en format responsive (mobile, tablette);</p>
+                        </div>
 
-                        <p class="p6">Vous pouvez me suivre sur ...
-
-                            <a href="https://www.linkedin.com/in/bailleuxthomas-dev/" target="_blank"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/BailleuxThomas" target="_blank"><i
-                                    class="fab fa-github"></i></a>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -93,14 +85,13 @@
 
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 col-12 colone-2">
                 <div class="row">
-                    <img src="assets/img/profil3.jpg" alt="">
+                    <a id="Img1url" href="" target="_blank">
+                        <img id="Img1" src="" alt="" >
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -112,6 +103,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="assets/js/information.js"></script>
 </body>
 
 </html>
